@@ -1,0 +1,57 @@
+# ============================
+#   ARCHIVOS DEL SISTEMA
+# ============================
+.DS_Store
+._*
+Thumbs.db
+
+# ============================
+#   ENTORNOS / PYTHON
+# ============================
+american_express_env/
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ============================
+#   JUPYTER NOTEBOOKS
+# ============================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ============================
+#   DATASETS (NO VERSIONAR)
+#   Datos de Kaggle, Parquets, CSVs pesados
+# ============================
+Data/
+*.csv
+*.parquet
+*.zip
+*.gz
+
+# ============================
+#   LOGS Y ARCHIVOS TEMPORALES
+# ============================
+*.tmp
+*.out
+*.bak
+*.swp
+*.swo
+
+# ============================
+#   ARCHIVOS DE SALIDA DE MODELOS
+# ============================
+*.pkl
+*.bin
+
+# ============================
+#   CONFIGURACIONES LOCALES
+# ============================
+*.env
+.env.*
+.vscode/
+.idea/
